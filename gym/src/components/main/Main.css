@@ -1,0 +1,25 @@
+.section-main{
+    border: 5px solid #000000;
+    height: 100vh;
+    background-color: #e48282;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 2rem;
+}
+.calendar{
+    border: 5px solid #000000;
+    /* height: 100vh; */
+    background-color: #e48282;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.workout{
+    border: 5px solid #000000;
+    background-color: #e48282;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
