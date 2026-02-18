@@ -1,0 +1,21 @@
+
+.section {
+  margin-top: 40px;
+}
+
+.activity-list {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  list-style: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.activity-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.activity-list li:last-child {
+  border-bottom: none;
+}
