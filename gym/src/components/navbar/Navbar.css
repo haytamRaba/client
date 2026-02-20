@@ -1,0 +1,39 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+}
+.navbar {
+    display: flex;
+    background-color: #000000;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-links{
+    color: rgb(255, 255, 255);
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer; 
+    font-weight: bold; 
+    margin-right: 100px;
+    
+}
+.nav-links a{
+    text-decoration: none;
+
+}
+.nav-links a:visited{
+    text-decoration: none;
+    color: white;
+
+}
+    
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
