@@ -13,30 +13,19 @@ const mainHeader = () => {
 
   return (
    <>
+   <div clqassName="many">
     <h1 className="main-title">Gym Admin Dashboard</h1>
 
       <div className="stats-container">
-        {
-        stats.map(
-            (stat, index) => (
+        {stats.map( (stat, index) => (
           <div className="card" key={index}>
 
             <h3>{stat.title}</h3>
             <p>{stat.value}</p>
-          </div>
-        )
-    )
-        }
+          </div>))}
+
       </div>
-
-
-        
-
-        
-
-
-
-
+</div>
    </>
   )
 }
