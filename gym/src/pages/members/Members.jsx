@@ -32,15 +32,26 @@ const Members = () => {
   return (
     <div>
         <Navbar />
-        <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} />
-        <button onClick={handleSearch}>Search</button>
-        {result && <p>{result}</p>}
+        <div className='members-container'>
+             <div className='search-section'>
+            <input type="text" placeholder='search client by name' value={search} onChange={(e) => setSearch(e.target.value)} />
+            <button onClick={handleSearch}>Search</button>   
+        </div>
+          {/* check result if include found if yes result appear with specific styles */}
+            { (result.includes("Found") ? <p className='search-result-true'>{result}</p> : <p className='search-result-false'>{result}</p>)}
+      
+        
+      
         <hr />
         <div className="members-content">
           <h2>Members Management</h2>
           <p>View, add, update, and delete members here.</p>
         </div>
         <hr />
+
+        </div>
+
+       
         <Footer />
     </div>
   )
