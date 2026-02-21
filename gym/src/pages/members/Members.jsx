@@ -38,9 +38,37 @@ const Members = () => {
             <button onClick={handleSearch}>Search</button>   
         </div>
           {/* check result if include found if yes result appear with specific styles */}
-            { (result.includes("Found") ? <p className='search-result-true'>{result}</p> : <p className='search-result-false'>{result}</p>)}
+            {result && (result.includes("Found") ? <p className='search-result-true'>{result}</p> : <p className='search-result-false'>{result}</p>)}
       
-        
+        <div className='members-list'>
+            <h4>members list</h4>
+            <table>
+                <tr className='table-header'>
+                    <th>id</th>
+                    <th>Full Name</th>
+                    <th>Membership Type</th>
+                    <th>Phone Number</th>
+                    <th>Join Date</th>
+                    <th>actions</th>
+                </tr>
+                  {gymMembers.map((m)=>(
+                    <tr key={m.id} className='member-info'>
+                        <td>{m.id}</td>
+                        <td>{m.firstName} {m.lastName}</td>
+                        <td>{m.membershipType}</td>
+                        <td>{m.phoneNumber}</td>
+                        <td>{m.joinDate}</td>
+                        <td > <button>Edit</button>
+                        </td>
+                    </tr>
+                  ))}
+            </table>
+            <hr />
+
+        </div>
+       
+
+
       
         <hr />
         <div className="members-content">

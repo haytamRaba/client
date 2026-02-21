@@ -46,6 +46,38 @@
     border: 1px solid #ebccd1;
     border-radius: 5px;
 }
+.table-header{
+    margin-top: 20px;
+    width: 80%;
+    background-color: #565353;
+    color: white;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+}
+tr{
+    width: 80%;
+    background-color: #8b8989;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+/* .members-list{
+    margin-top: 20px;
+    width: 80%;
+    background-color: #565353;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+.member-info{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8b8989;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+} */
 
 hr{
     width: 100%;
