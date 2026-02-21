@@ -13,7 +13,7 @@ const mainHeader = () => {
 
   return (
    <>
-   <div clqassName="many">
+   <div >
     <h1 className="main-title">Gym Admin Dashboard</h1>
 
       <div className="stats-container">
