@@ -10,6 +10,7 @@ const gymMembers = [
     { id: 4, firstName: "Aymane", lastName: "Medjel", membershipType: "Gold", phoneNumber:"0654321987", joinDate: "2026-04-05" },
     { id: 5, firstName: "Bader", lastName: "Harry", membershipType: "Gold", phoneNumber:"0678912345", joinDate: "2026-07-22" }
 ];
+export const totalMembers = gymMembers.length;
 
 const Members = () => {
 
