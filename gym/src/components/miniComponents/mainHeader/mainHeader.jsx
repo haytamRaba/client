@@ -6,7 +6,8 @@ const stats = [
   { title: "Total Members", value: totalMembers },
   { title: "Active Memberships", value: 198 },
   { title: "Expiring Soon", value: 12 },
-  { title: "Today's Check-ins", value: 57 },
+  { title: "Revenue this month", value: 57 },
+  { title: "Recent activity log", value: 34 },
 ];
 
 const mainHeader = () => {
