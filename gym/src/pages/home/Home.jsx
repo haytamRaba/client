@@ -6,8 +6,9 @@ import Footer from "../../components/footer/Footer.jsx";
 const Home = () => {
   return (
    <div>
-      <Navbar />
-      <Main />
+    
+      <Navbar  />
+     <Main />
       <Footer/>
    </div>
   )

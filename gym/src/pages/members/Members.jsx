@@ -14,6 +14,7 @@ export const totalMembers = gymMembers.length;
 
 const Members = () => {
 
+    
     const [search, setSearch] = useState("");
     const [result, setResult] = useState(null);
 
