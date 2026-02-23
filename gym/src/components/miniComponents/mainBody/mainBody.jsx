@@ -7,10 +7,12 @@ const mainBody = () => {
         <h2>Quick Actions</h2>
         <div className="actions">
           <Link to="/members">
-          <button>Members [add,delete,update,search]</button>
+          <button >Members [add,delete,update,search]</button>
           </Link>
           <button>Create Class</button>
-          <button>Record Payment</button>
+          <Link to="/payments">
+                    <button>Record Payment</button>
+          </Link>
           <button>Assign Trainer</button>
         </div>
       </div>
