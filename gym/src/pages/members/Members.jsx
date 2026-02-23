@@ -5,13 +5,13 @@ import "./Members.css";
 
 const gymMembers = [
     { id: 1, firstName: "Haytam", lastName: "Raba", membershipType: "Gold", email: "Haytamraba@gmail.com" , phoneNumber:"0612345678", joinDate: "2026-01-15" },
-    { id: 2, firstName: "Yassine", lastName: "Jabbouk", membershipType: "Silver", email: "Yassinejabbouk@gmail.com"  , phoneNumber:"0687654321", joinDate: "2026-02-20" },
+    { id: 2, firstName: "Yassine", lastName: "Jabbouk", membershipType: "Gold", email: "Yassinejabbouk@gmail.com"  , phoneNumber:"0687654321", joinDate: "2026-02-20" },
     { id: 3, firstName: "Aymen", lastName: "Rafiky", membershipType: "Bronze", email: "Aymenrafiky@gmail.com" , phoneNumber:"0698765432", joinDate: "2026-03-10" },
     { id: 4, firstName: "Aymane", lastName: "Medjel", membershipType: "Gold", email: "Aymenmedjel@gmail.com" , phoneNumber:"0654321987", joinDate: "2026-04-05" },
     { id: 5, firstName: "Bader", lastName: "Harry", membershipType: "Gold", email: "Aymenhary@gmail.com" , phoneNumber:"0678912345", joinDate: "2026-07-22" }
 ];
 export const totalMembers = gymMembers.length;
-export const members =gymMembers.map(m =>(m.membershipType));
+export const members =gymMembers;
 
 const Members = () => {
 
