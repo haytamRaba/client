@@ -17,7 +17,8 @@
   cursor: pointer;
   transition: 0.3s;
 }
-
 .actions button:hover {
   background: #0056b3;
+  border: 1px solid #128c9f;
 }
+
